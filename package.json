@@ -5,6 +5,7 @@
   "main": "./src/app.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon ./src/app.js",
+    "start": "cross-env NODE_ENV=production node ./src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,7 +15,8 @@
     "cors": "^2.8.5",
     "dotenv": "^16.1.4",
     "express": "^4.18.2",
-    "pg": "^8.11.0"
+    "pg": "^8.11.0",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "cross-env": "^7.0.3",
